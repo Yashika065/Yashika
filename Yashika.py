@@ -388,22 +388,23 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m
-       
-   ___  _ ____  ____  _     _  _  __ ____ 
-\  \///  _ \/ ___\/ \ /|/ \/ |/ //  _ \
- \  / | / \||    \| |_||| ||   / | / \|
- / /  | |-||\___ || | ||| ||   \ | |-||
-/_/   \_/ \|\____/\_/ \|\_/\_|\_\\_/ \|     
-                                     \033
+ __     __       _       _            _____                             
+ \ \   / /      | |   (_) |          / ____|                            
+  \ \_/ /_ _ ___| |__  _| | ____ _  | (___   __ _ _ __ __ _ _ __   __ _ 
+   \   / _` / __| '_ \| | |/ / _` |  \___ \ / _` | '__/ _` | '_ \ / _` |
+    | | (_| \__ \ | | | |   < (_| |  ____) | (_| | | | (_| | | | | (_| |
+    |_|\__,_|___/_| |_|_|_|\_\__,_| |_____/ \__,_|_|  \__,_|_| |_|\__, |
+                                                                   __/ |
+                                                                  |___/                                  \033
 __________________×______________________
   
   Owner  : YASHIKA SARANG
 
 QUALITY :  DILL MAI AATI HUN SAMJH MAI NHI 
  
-  Github  :  SAMAR 065
+  Github  :  BABU KI BABU HU YWR
 
-Facebook :  YASHIKA SARANG BABU KI BABU HU YWR 
+Facebook :  YASHIKA SARANG
   
  Youtube  : TECHNICAL BOSS
   
