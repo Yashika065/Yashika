@@ -387,22 +387,26 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[1;32m
- __     __       _       _            _____                             
- \ \   / /      | |   (_) |          / ____|                            
-  \ \_/ /_ _ ___| |__  _| | ____ _  | (___   __ _ _ __ __ _ _ __   __ _ 
-   \   / _` / __| '_ \| | |/ / _` |  \___ \ / _` | '__/ _` | '_ \ / _` |
-    | | (_| \__ \ | | | |   < (_| |  ____) | (_| | | | (_| | | | | (_| |
-    |_|\__,_|___/_| |_|_|_|\_\__,_| |_____/ \__,_|_|  \__,_|_| |_|\__, |
-                                                                   __/ |
-                                                                  |___/                                  \033
+logogo = ("""\033[1;32m
+##    ##    ###     ######  ##     ## #### ##    ##    ###    
+ ##  ##    ## ##   ##    ## ##     ##  ##  ##   ##    ## ##   
+  ####    ##   ##  ##       ##     ##  ##  ##  ##    ##   ##  
+   ##    ##     ##  ######  #########  ##  #####    ##     ## 
+   ##    #########       ## ##     ##  ##  ##  ##   ######### 
+   ##    ##     ## ##    ## ##     ##  ##  ##   ##  ##     ## 
+   ##    ##     ##  ######  ##     ## #### ##    ## ##     ## 
+                                                         \033
 __________________×______________________
   
   Owner  : YASHIKA SARANG
 
-QUALITY :  DILL MAI AATI HUN SAMJH MAI NHI 
+QUALITY :  JATAV CHORI__BETA TERI AUKAT SE BAHAR HAI YE CHORI 
  
-  Github  :  BABU KI BABU HU YWR
+OY SUN  :. DILL MAI AATI HUN SAMAJH MAI NHI 
+
+INSTAGRAM:.   DIYAJHA....BINDASH_YASHIKA
+
+ Github  :  BABU KI BABU HU YWR
 
 Facebook :  YASHIKA SARANG
   
