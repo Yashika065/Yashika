@@ -388,31 +388,31 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m
-##    ##    ###     ######  ##     ## #### ##    ##    ###    
- ##  ##    ## ##   ##    ## ##     ##  ##  ##   ##    ## ##   
-  ####    ##   ##  ##       ##     ##  ##  ##  ##    ##   ##  
-   ##    ##     ##  ######  #########  ##  #####    ##     ## 
-   ##    #########       ## ##     ##  ##  ##  ##   ######### 
-   ##    ##     ## ##    ## ##     ##  ##  ##   ##  ##     ## 
-   ##    ##     ##  ######  ##     ## #### ##    ## ##     ## 
+
+_ _      
+\\/ashika
+''       
+
                                                            \033
 __________________×______________________
   
-  Owner  : YASHIKA SARANG
+  Owner  :   YASHIKA SARANG
 
-QUALITY :  JATAV CHORI__BETA TERI AUKAT SE BAHAR HAI YE CHORI 
+QUALITY  :    JATAV CHORI
+
+SUN BE   :    BETA TERI AUKAT SE BAHAR HAI YE CHORI 
  
-OY SUN  :. DILL MAI AATI HUN SAMAJH MAI NHI 
+OY SUN   :    DILL MAI AATI HUN SAMAJH MAI NHI 
 
-INSTAGRAM:.   DIYAJHA....BINDASH_YASHIKA
+INSTAGRAM:   DIYAJHA....BINDASH_YASHIKA
 
- Github  :  BABU KI BABU HU YWR
+ Github  :    BABU KI BABU HU YWR
 
-Facebook :  YASHIKA SARANG
+Facebook :    YASHIKA SARANG
   
- Youtube  : TECHNICAL_Boss07
+ Youtube :   TECHNICAL_Boss07
   
-Whatsap  :  +919050***900
+Whatsap  :    +919050***900
 __________________×______________________\033[1;37m""")
 
 class Main:
