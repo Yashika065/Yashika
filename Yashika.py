@@ -387,13 +387,16 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[1;32m
+logo = ("""\1;32[1;37m _     _            _         _            
+( )   ( )          ( )     _ ( )           
+`\`\_/'/'_ _   ___ | |__  (_)| |/')    _ _ 
+  `\ /'/'_` )/',__)|  _ `\| || , <   /'_` )
+   | |( (_| |\__, \| | | || || |\`\ ( (_| |
+   (_)`\__,_)(____/(_) (_)(_)(_) (_)`\__,_)
+                                           
+                                               
 
-_ _      
-\\/ashika
-''       
-
-                                                           \033
+                                                           \037
 __________________×______________________
   
   Owner  :   YASHIKA SARANG
@@ -404,7 +407,7 @@ SUN BE   :    BETA TERI AUKAT SE BAHAR HAI YE CHORI
  
 OY SUN   :    DILL MAI AATI HUN SAMAJH MAI NHI 
 
-INSTAGRAM:   DIYAJHA....BINDASH_YASHIKA
+INSTAGRAM:    DIYAJHA....BINDASH_YASHIKA
 
  Github  :    BABU KI BABU HU YWR
 
