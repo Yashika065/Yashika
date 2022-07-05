@@ -406,7 +406,7 @@ QUALITY :  DILL MAI AATI HUN SAMJH MAI NHI
 
 Facebook :  YASHIKA SARANG
   
- Youtube  : TECHNICAL BOSS
+ Youtube  : TECHNICAL_Boss07
   
 Whatsap  :  +919050***900
 __________________×______________________\033[1;37m""")
