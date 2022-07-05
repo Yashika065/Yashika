@@ -399,21 +399,21 @@ logo = ("""\1;32[1;37m _     _            _         _
                                                            \037
 __________________×______________________
   
-  Owner  :   YASHIKA SARANG
+  Owner  :    YASHIKA SARANG
 
 QUALITY  :    JATAV CHORI
 
-SUN BE   :    BETA TERI AUKAT SE BAHAR HAI YE CHORI 
+SUN BE   :    BETA TERI AUKAT SE BAHAR HAi Y CHORI 
  
 OY SUN   :    DILL MAI AATI HUN SAMAJH MAI NHI 
 
-INSTAGRAM:    DIYAJHA....BINDASH_YASHIKA
+INSTAGRAM:    Official_NASHA_03....BINDASH_YASHIKA
 
  Github  :    BABU KI BABU HU YWR
 
 Facebook :    YASHIKA SARANG
   
- Youtube :   TECHNICAL_Boss07
+ Youtube :    TECHNICAL_Boss07
   
 Whatsap  :    +919050***900
 __________________×______________________\033[1;37m""")
