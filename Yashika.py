@@ -426,6 +426,35 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
+		print("")
+		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+		print("\033[1;37m𝗡𝗢𝗧𝗘 : Approval ke liye channel subscribe kre")
+		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+		
+		
+		print("")
+		print("\033[1;37m [1] 𝗙𝗶𝗿𝘀𝘁 Subscribe YouTube channel   ")
+		print("\033[1;37m [2] 𝗘𝘅𝗶𝘁")
+		print("")
+		Baloch = input("\n\033[1;37m  Choose : \033[1;32m")
+		if Baloch in ["", " "]:
+			exit()
+		elif Baloch in ["2", "02"]:
+			print("    Thanks♥️")
+			exit() 
+		elif Baloch in ["1", "01"]:
+			os.system("xdg-open https://youtube.com/c/Technicalboss07 ")
+			print("")
+			time.sleep(3.0)
+			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
+			print("")
+			input("\n\033[1;37m TYᑭᗴ Tᕼᗴ Oᗯᑎᗴᖇ ᖴᗩᑕᗴᗷOOK ᗩᑕᑕOᑌᑎT ᑎᗩᗰᗴ \033[1;37m")
+			time.sleep(3.1)
+			print("")
+			print("\033[1;32m ᗯᗴᒪᑕOᗰᗴ TO ••𝗠𝗔𝗝𝗜𝗗•• ᗷᖇᗩᑎᗪ TOOᒪՏ")
+			time.sleep(3.0)
+			os.system("clear")
+		print(logo)
 		print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
 		print(" [3] Create File")
