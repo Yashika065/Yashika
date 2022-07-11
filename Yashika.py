@@ -456,7 +456,7 @@ class Main:
 			time.sleep(3.0)
 			os.system("clear")
 		print(logo)
-		print("\n [1] File Cloning BEST")
+		print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
 		print(" [3] Create File")
 		print(" [4] 2009-10 Cloning")
