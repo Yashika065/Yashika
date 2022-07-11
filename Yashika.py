@@ -397,17 +397,26 @@ logo = ("""\033[1;32m
                                                     
                                 \033
 __________________×______________________
-  TOOL UPDATE AGAIN BY YASHIKA💘SAMAR
+  TOOL UPDATE AGAIN BY BINDASS_YASHIKA...
 
-  Auther   :  MAJID KHAN 💖YASHIKA SARANG
+  don't copy me__ITS, YASHIKA_JATAV CHORI 
+
+  Auther   :  YASHIKA SARANG
  
-  Github   :  MAJID KHAN 💝YASHIKA SARANG 
+  QUALITY  :  YASHIKA SARANG 
 
-  Facebook :  MAJID HU YWR..⭐⭐⭐⭐
+   SUN be  :  BETA TERI AUKAT SE BAHAR He YE CHORI
 
-  TEAM     : TRUSTED HEART SHUTERS 
-  
-  Contact : +919050966900
+  OY  SUN  : DILL MAI AATI HUN SAMAJH MAI NHI 
+
+INSTAGRAM  : Official_NASHA_03...BINDASH_YASHIKA
+
+ Facebook  :  YASHIKA_SARANG..⭐⭐⭐⭐⭐ 
+
+  TEAM     : TRUSTED HEART SHUTERS
+
+ MAJID_KHAN_X_Ali_Jutt
+
 __________________×______________________\033[1;37m""")
 
 class Main:
