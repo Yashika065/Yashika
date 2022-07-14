@@ -387,28 +387,28 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[1;32m
-__ __ _   __  _ _  _  _  _  _  
-\ V // \ / _|| U || || |// / \ 
- \ /| o |\_ \|   || ||  ( | o |
- |_||_n_||__/|_n_||_||_|\\|_n_|
-                                                       \033
+logo = ("""\037[1;37m
+##    ##    ###     ######  ##     ## #### ##    ##    ###       
+ ##  ##    ## ##   ##    ## ##     ##  ##  ##   ##    ## ##      
+  ####    ##   ##  ##       ##     ##  ##  ##  ##    ##   ##     
+   ##    ##     ##  ######  #########  ##  #####    ##     ##    
+   ##    #########       ## ##     ##  ##  ##  ##   #########    
+   ##    ##     ## ##    ## ##     ##  ##  ##   ##  ##     ##    
+   ##    ##     ##  ######  ##     ## #### ##    ## ##     ##    
+                                                       \037
 __________________×______________________
-  TOOL UPDATE AGAIN BY BINDASS_YASHIKA...
-
-  don't copy me__ITS, YASHIKA_JATAV CHORI 
+  TOOL UPDATE AGAIN BY BINDASS_YASHIKA... 
 
   Auther   :  YASHIKA SARANG
  
-  QUALITY  :  YASHIKA SARANG 
-
-   SUN be  :  BETA TERI AUKAT SE BAHAR He YE CHORI
+  QUALITY  :  Jatav_CHORI
 
   OY  SUN  : DILL MAI AATI HUN SAMAJH MAI NHI 
 
 INSTAGRAM  : Official_NASHA_03...BINDASH_YASHIKA
 
  Facebook  :  YASHIKA_SARANG..⭐⭐⭐⭐⭐
+
  MAKE_BY   : MAJID_KHAN_SAMAR_INDIAN_TRICKER
  Contact   : +919050966900
 
